@@ -52,7 +52,7 @@ int main(int argc, char *argv[])
  
 	if (argc != 5)
 	{
-		printf("- Usage %s <source hostname/IP> <source port> <target hostname/IP> <target port>\n ./udp_raw 192.168.1.90 50000 114.114.114.114 53 tcpdump -i eno16777736 udp port 50000\n", argv[0]);
+		printf("- Usage %s <source hostname/IP> <source port> <target hostname/IP> <target port>\n", argv[0]);
 		exit(-1);
 	}
  
